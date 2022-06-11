@@ -4,7 +4,9 @@
 #### As a massive retail company, Amazon relies on customer reviews to maintain ongoing sales. One way Amazon ensures the products are reviewed is through their Amazon Vine program, which pays select consumers to trial a product and then post a review of the product. However, as these reviews are sponsored by Amazon, Amazon is looking to evaluate if this affects the reviews provided by Vine members. To do this, information about furniture items was extracted through PySpark, transformed utilizing Pandas, and then loaded into a csv via PostgreSQL for further analysis. From there, five-star reviews were evaluated for both Vine (paid) reviews, and unpaid reviews.
 
 ## Resources Utilized
-##### Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Furniture_v1_00.tsv.gz
+##### Data Source: [Amazon Furniture Review Dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Furniture_v1_00.tsv.gz)
+
+
 ##### Software: Python 3.7.6; Anaconda 4.10.3; PgAdmin 4; PostgreSQL 11, PySPark 3.0.3, AWS and RD3
 
 
